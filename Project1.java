@@ -42,7 +42,7 @@ public class Project1 {
         try (Scanner input = new Scanner(new File(args[0]))){
             while (input.hasNext()) {
                 input.nextLine();
-                numWords++;
+                numLines++;
             }
         }
         catch(java.io.IOException ex) {
